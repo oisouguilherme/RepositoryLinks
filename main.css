@@ -69,6 +69,7 @@ ul li a {
     color: white;
     text-transform: uppercase;
     font-size: 14px;
+    border: #0d2ba3 solid 2px;
 
     margin-bottom: 16px;
     border-radius: 6px;
