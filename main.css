@@ -31,7 +31,7 @@ a {
 }
 
 img {
-    width: 100%;
+    width: 100px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -69,7 +69,6 @@ ul li a {
     color: white;
     text-transform: uppercase;
     font-size: 14px;
-    border: #0d2ba3 solid 2px;
 
     margin-bottom: 16px;
     border-radius: 6px;
@@ -93,4 +92,20 @@ footer:hover {
 
 footer a {
     color: var(--text-color);
+}
+
+.hide {
+    display: none;
+}
+
+button{
+    position: fixed;
+    left: 85%;
+    top: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
